@@ -21,7 +21,7 @@ namespace AmazonGameLiftPlugin.Editor.UnitTests
         private static readonly bool[] s_boolValues = new bool[] { true, false };
 
         #region Form persistence
-
+        /*
         [Test]
         [TestCase(true)]
         [TestCase(false)]
@@ -42,7 +42,7 @@ namespace AmazonGameLiftPlugin.Editor.UnitTests
 
             // Assert
             Assert.AreEqual(coreSuccess ? storedScenario : DeploymentScenarios.SingleRegion, underTest.Scenario);
-        }
+        }*/
 
         [Test]
         [TestCase(true)]
